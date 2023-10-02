@@ -103,10 +103,6 @@
     "id": 6,
     "title": "The Great Lands",
     "thumbnail": {
-      "trending": {
-        "small": "./assets/thumbnails/the-great-lands/trending/small.jpg",
-        "large": "./assets/thumbnails/the-great-lands/trending/large.jpg"
-      },
       "regular": {
         "small": "./assets/thumbnails/the-great-lands/regular/small.jpg",
         "medium": "./assets/thumbnails/the-great-lands/regular/medium.jpg",
@@ -117,7 +113,7 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": true
+    "isTrending": false
   },
   {
     "id": 7,
