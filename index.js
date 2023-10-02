@@ -1,9 +1,14 @@
 const express = require('express');
+const app = express();
+
 const path = require('path');
 const movies = require('./routes/movies');
 const users = require('./routes/users');
+const cors = require('cors');
 
-const app = express();
+require('dotenv/config');
+
+app.use(cors());
 
 // Middleware to parse JSON
 app.use(express.json());
