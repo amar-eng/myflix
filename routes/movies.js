@@ -51,7 +51,10 @@ router.put('/update/:id', (req, res) => {
 
     fs.writeFile(dataPath, JSON.stringify(jsonData, null, 2), (writeErr) => {
       if (writeErr) {
-        return res.status(500).json({ error: 'Failed to write data.' });
+        console.error('Write Error:', writeErr);
+        return res
+          .status(500)
+          .json({ error: 'Failed to write data.', details: writeErr.message });
       }
 
       // Send back the updated data as a response
