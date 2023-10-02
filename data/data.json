@@ -161,7 +161,7 @@
     "category": "Movie",
     "rating": "E",
     "isBookmarked": false,
-    "isTrending": false
+    "isTrending": true
   },
   {
     "id": 10,
